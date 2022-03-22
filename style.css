@@ -8,7 +8,7 @@ body{
 #color-palette {
     text-align: center;
 }
-#black {
+#black  {
     border: black solid 1px ;
     display: inline-block;
     background-color: black;
@@ -144,5 +144,140 @@ body{
     display: inline-block;
     left: 40px;
     top: 40px;
+}
+#ae1{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    top: 80px
+}
+#ae2{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    top: 80px;
+}
+#ae3{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+#ae4{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+#ae5{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+    top: 80px;
+}
+#ee1{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    top: 120px
+}
+#ee2{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+#ee3{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 120px;
+}
+#ee4{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
+#ee5{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+    top: 120px;
+}
+#aa1{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    top: 160px
+}
+#aa2{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    top: 160px;
+}
+#aa3{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+}
+#aa4{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+}
+#aa5{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+    top: 160px;
 }
 
