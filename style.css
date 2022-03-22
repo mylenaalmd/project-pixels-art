@@ -1,0 +1,112 @@
+body{
+    background-color: burlywood;
+}
+
+#title {
+    text-align: center;
+}
+#color-palette {
+    text-align: center;
+}
+#black {
+    border: black solid 1px ;
+    display: inline-block;
+    background-color: black;
+    left: 450px;
+    margin-right: 10px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+#red {
+    border: black solid 1px ;
+    display: inline-block;
+    background-color: red;
+    left: 525px;
+    margin-right: 10px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+#purple {
+    border: black solid 1px ;
+    display: inline-block;
+    background-color: purple;
+    left: 675px;
+    margin-right: 10px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+#green {
+    border: black solid 1px ;
+    display: inline-block;
+    background-color: green;
+    left: 750px;
+    margin-right: 10px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+#yellow {
+    border: black solid 1px ;
+    display: inline-block;
+    background-color: yellow;
+    left: 600px;
+    position: absolute;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+#pixel-board {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    border: black solid 1px;
+    position: absolute;
+    background-color: white;
+    left: 510px;
+    top: 130px;
+    display: inline-block;
+}
+#la1{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+}
+#la2{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+}
+#la3{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+}
+#la4{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+#la5{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+}
