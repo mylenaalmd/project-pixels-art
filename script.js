@@ -51,11 +51,3 @@ quadroPixel.addEventListener('click',function (event){
     event.target.style.backgroundColor = selecionada.style.backgroundColor;
     });
 
-button2.addEventListener("click", function(){
-    let valor =input.value;
-    if (valor <= 0 || valor == null){
-        alert("Board inválido!");
-    }
-     for (let )
-});
-
