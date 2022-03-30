@@ -6,278 +6,68 @@ body{
     text-align: center;
 }
 #color-palette {
-    text-align: center;
-}
-#black  {
-    border: black solid 1px ;
-    display: inline-block;
-    background-color: black;
-    left: 500px;
-    margin-right: 10px;
-    position: absolute;
-    width: 60px;
     height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-#red {
-    border: black solid 1px ;
-    display: inline-block;
-    background-color: red;
-    left: 575px;
-    margin-right: 10px;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-}
-#purple {
-    border: black solid 1px ;
-    display: inline-block;
-    background-color: purple;
-    left: 650px;
-    margin-right: 10px;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-}
-#green {
-    border: black solid 1px ;
-    display: inline-block;
-    background-color: green;
-    left: 730px;
-    margin-right: 10px;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-}
-#pixel-board {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    text-align: center;
-    border: black solid 1px;
-    position: absolute;
-    background-color: white;
-    left: 530px;
-    top: 130px;
-    display: inline-block;
-}
-#la1{
+.color {
     width: 40px;
     height: 40px;
+    margin: 5px;
     border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 160px;
 }
-#la2{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 120px;
+#up {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+
 }
-#la3{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 80px;
-}
-#la4{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-}
-#la5{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    position: absolute;
-    display: inline-block;
-    left: 40px;
-}
-#al1{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 160px;
-    top: 40px
-}
-#al2{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 120px;
-    top: 40px;
-}
-#al3{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 80px;
-    top: 40px;
-}
-#al4{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    top: 40px;
-}
-#al5{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    position: absolute;
-    display: inline-block;
-    left: 40px;
-    top: 40px;
-}
-#ae1{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 160px;
-    top: 80px
-}
-#ae2{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 120px;
-    top: 80px;
-}
-#ae3{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 80px;
-    top: 80px;
-}
-#ae4{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    top: 80px;
-}
-#ae5{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    position: absolute;
-    display: inline-block;
-    left: 40px;
-    top: 80px;
-}
-#ee1{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 160px;
-    top: 120px
-}
-#ee2{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 120px;
-    top: 120px;
-}
-#ee3{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 80px;
-    top: 120px;
-}
-#ee4{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    top: 120px;
-}
-#ee5{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    position: absolute;
-    display: inline-block;
-    left: 40px;
-    top: 120px;
-}
-#aa1{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 160px;
-    top: 160px
-}
-#aa2{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 120px;
-    top: 160px;
-}
-#aa3{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 80px;
-    top: 160px;
-}
-#aa4{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    top: 160px;
-}
-#aa5{
-    width: 40px;
-    height: 40px;
-    border: black solid 1px;
-    position: absolute;
-    display: inline-block;
-    left: 40px;
-    top: 160px;
+#board-size {
+   width: 50px;
+   margin-left: 10px;
 }
 
+#pixel-board {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+#one {
+    display: inline
+}
+#two {
+    display: inline
+}
+#three {
+    display: inline
+}
+#four {
+    display: inline
+}
+#five {
+    display: inline
+}
+.pixel{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px  solid black;
+}
+div.pixel.um {
+    display: block;
+}
+div.pixel.dois{
+    display: block;
+}
+div.pixel.tres {
+    display: block;
+}
+div.pixel.quatro {
+    display: block;
+}
+div.pixel.cinco {
+    display: block;
+}
