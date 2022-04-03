@@ -35,39 +35,13 @@ body{
     display: flex;
     justify-content: center;
 }
-#one {
-    display: inline
-}
-#two {
-    display: inline
-}
-#three {
-    display: inline
-}
-#four {
-    display: inline
-}
-#five {
-    display: inline
-}
 .pixel{
     background-color: white;
     width: 40px;
     height: 40px;
     border: 1px  solid black;
-}
-div.pixel.um {
     display: block;
 }
-div.pixel.dois{
-    display: block;
-}
-div.pixel.tres {
-    display: block;
-}
-div.pixel.quatro {
-    display: block;
-}
-div.pixel.cinco {
-    display: block;
+.one {
+    display: inline;
 }
