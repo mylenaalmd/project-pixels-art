@@ -103,9 +103,10 @@ button2.addEventListener('click', () => {
   }
 });
 
-paleta.onload = function setBg() {
-  const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+window.onload = function getRamdomColor() {
   const pixelCor = document.getElementsByClassName('colorM');
-  pixelCor.style.backgroundColor = randomColor.style.backgroundColor;
-  pixelCor.innerHTML = `#${randomColor}`;
+  for (let i = 0; i < pixelCor.length; i += 1) {
+    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    pixelCor[i].style.backgroundColor = randomColor;
+  }
 };
